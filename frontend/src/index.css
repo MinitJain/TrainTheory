@@ -203,3 +203,19 @@ button:focus {
   border-radius: 6px;
   padding: 8px 10px;
 }
+input.error {
+  border: 1px solid var(--error);
+}
+
+div.error {
+  padding: 10px;
+  background-color: floralwhite;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
