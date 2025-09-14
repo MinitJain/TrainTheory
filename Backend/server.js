@@ -12,6 +12,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Workout API 🚀");
+  9;
 });
 
 app.use((req, res, next) => {
