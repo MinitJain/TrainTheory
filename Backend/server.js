@@ -5,10 +5,7 @@ const workoutRoutes = require("./routes/workout");
 const mongoose = require("mongoose");
 const app = express();
 
-// middleware
 app.use(express.json());
-
-// middleware
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Workout API 🚀");

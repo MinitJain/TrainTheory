@@ -1,10 +1,3 @@
-/*
-  Minimal base styles for clean, readable UI
-  - Subtle colors, ample spacing, clear typography
-  - Lightweight and easy to extend
-*/
-
-/* Design tokens */
 :root {
   --bg: #f7f7f8;
   --surface: #ffffff;
