@@ -9,7 +9,6 @@ const WorkoutForm = () => {
   const [error, setError] = useState(null);
   const [emptyFields, setEmptyFields] = useState([]);
 
-  // Function to remove error styling when user focuses on a field
   const handleFieldFocus = (fieldName) => {
     if (emptyFields.includes(fieldName)) {
       setEmptyFields(emptyFields.filter((field) => field !== fieldName));
@@ -19,11 +18,9 @@ const WorkoutForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Clear previous errors
     setError(null);
     setEmptyFields([]);
 
-    // Validate input
     if (!title || !load || !reps) {
       setError("Please fill in all fields");
       const empty = [];
