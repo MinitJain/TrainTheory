@@ -6,10 +6,6 @@ import Home from "./pages/Home";
 import Navbar from "./Components/Navbar";
 import { WorkoutsContextProvider } from "./Context/WorkoutContext";
 
-const toggleTheme = () => {
-  document.documentElement.classList.toggle("dark");
-};
-
 function App() {
   return (
     <CopilotKit publicApiKey="ck_pub_00828bb5867d63cbfb2bbc6f1352e642">
